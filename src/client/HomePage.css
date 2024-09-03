@@ -1,0 +1,135 @@
+/* HomePage.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.home-page {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #FFF8EA;
+  /* border-bottom: 1px solid #ddd; */
+  border: 0px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-list-bar {
+  width: 100%;
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a, .nav-button {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px; /* Navbar font size */
+}
+
+.nav-button {
+  background-color: #659639;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 20px;
+  display: inline-block;
+}
+
+
+footer {
+  padding: 40px;
+  background: white !important;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 17px;
+  color: #659639;
+}
+
+main {
+  background-color: #FFF8EA;
+  height: 86vh;
+}
+
+.welcome-section {
+  padding: 30px;
+  text-align: center;
+}
+
+.center-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.freeshare-logo {
+  width: 200px; 
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding-top: 70px;
+}
+
+.welcome-text-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.welcome-text-light {
+  font-size: 35px;
+  font-weight: light;
+  color: #659639;
+}
+
+.welcome-text-bold {
+  font-size: 42px;
+  font-weight: bold;
+  color: #659639;
+}
+
+.description-text {
+  font-weight: light;
+  font-size: 20px;
+  color: #659639;
+}
+
+.footr-social-icons-container {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: top;
+}
